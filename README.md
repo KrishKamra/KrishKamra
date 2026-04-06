@@ -1,5 +1,7 @@
-<!-- WAVE ANIMATION HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0A192F&height=200&section=header&text=Krish%20Kamra&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+<!-- CYBER HEADER -->
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:0A192F,100:FF00FF&height=220&section=header&text=Krish%20Kamra&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%7C%20Builder%20%7C%20Thinker&descAlignY=55&descSize=18" />
+</p>
 
 <!-- TYPING ANIMATION -->
 <p align="center">
@@ -108,5 +110,7 @@ I reverse-engineer complex ideas about intelligence and rebuild them through cod
 
 ---
 
-<!-- FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A192F,100:00F7FF&height=120&section=footer"/>
+<!-- CYBER FOOTER -->
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00FF,50:0A192F,100:00F7FF&height=140&section=footer"/>
+</p>
