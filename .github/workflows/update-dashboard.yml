@@ -16,7 +16,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0   # IMPORTANT for commit history
+          fetch-depth: 0
+          ref: main   # 🔥 ensures correct branch (fixes detached HEAD)
 
       - name: Install jq (JSON parser)
         run: sudo apt-get update && sudo apt-get install -y jq
@@ -28,7 +29,6 @@ jobs:
           REPOS=$(jq '.public_repos' data.json)
           FOLLOWERS=$(jq '.followers' data.json)
 
-          # Better approximations
           COMMITS=$(git rev-list --count HEAD)
           STARS=0
 
@@ -36,7 +36,7 @@ jobs:
           echo "Followers: $FOLLOWERS"
           echo "Commits: $COMMITS"
 
-          # Create fresh temp file (prevents replacement bugs)
+          # Fresh temp file (prevents broken replacements)
           cp assets/dashboard.svg assets/dashboard.tmp.svg
 
           sed -i "s/{{REPOS}}/$REPOS/g" assets/dashboard.tmp.svg
@@ -51,10 +51,14 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
 
+          # Ensure we are on main branch
+          git checkout main
+
+          # Pull latest changes BEFORE committing (critical fix)
+          git pull origin main --rebase
+
           git add assets/dashboard.svg
           git commit -m "Auto-update dashboard" || echo "No changes"
 
-          
-          git pull --rebase origin main
-
-          git push
+          # Push safely
+          git push origin main
