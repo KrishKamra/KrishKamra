@@ -1,41 +1,74 @@
-<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
 
 <style>
-.text { font-family: monospace; fill: #00F7FF; }
-.value { fill: #FFFFFF; font-size: 20px; }
+  .label { fill: #00F7FF; font-family: monospace; font-size: 14px; }
+  .value { fill: #FFFFFF; font-size: 20px; font-family: monospace; }
 </style>
 
 <!-- Background -->
-<rect width="900" height="320" rx="20" fill="#0A192F"/>
-<rect x="5" y="5" width="890" height="310" rx="20" fill="none" stroke="#00F7FF" stroke-width="2"/>
+<rect width="900" height="420" rx="20" fill="#0A192F"/>
+
+<!-- Glow Border -->
+<rect x="5" y="5" width="890" height="410" rx="20" fill="none" stroke="#00F7FF" stroke-width="2"/>
 
 <!-- Title -->
-<text x="50%" y="40" text-anchor="middle" class="text" font-size="24">
-AI SYSTEM DASHBOARD
+<text x="50%" y="40" text-anchor="middle" fill="#00F7FF" font-size="22" font-family="monospace">
+NEURAL AI SYSTEM
 </text>
 
-<!-- Divider -->
-<line x1="40" y1="60" x2="860" y2="60" stroke="#FF00FF"/>
+<!-- ================= NODES ================= -->
 
-<!-- PANEL: Repos -->
-<text x="150" y="110" text-anchor="middle" class="text">Repos</text>
-<text x="150" y="140" text-anchor="middle" class="value">10</text>
+<!-- Repos -->
+<circle cx="150" cy="150" r="40" fill="#111" stroke="#00F7FF" stroke-width="2"/>
+<text x="150" y="145" text-anchor="middle" class="label">Repos</text>
+<text x="150" y="170" text-anchor="middle" class="value">{{REPOS}}</text>
 
-<!-- PANEL: Stars -->
-<text x="350" y="110" text-anchor="middle" class="text">Stars</text>
-<text x="350" y="140" text-anchor="middle" class="value">3</text>
+<!-- Stars -->
+<circle cx="350" cy="100" r="40" fill="#111" stroke="#FF00FF" stroke-width="2"/>
+<text x="350" y="95" text-anchor="middle" class="label">Stars</text>
+<text x="350" y="120" text-anchor="middle" class="value">{{STARS}}</text>
 
-<!-- PANEL: Followers -->
-<text x="550" y="110" text-anchor="middle" class="text">Followers</text>
-<text x="550" y="140" text-anchor="middle" class="value">7</text>
+<!-- Followers -->
+<circle cx="550" cy="150" r="40" fill="#111" stroke="#00F7FF" stroke-width="2"/>
+<text x="550" y="145" text-anchor="middle" class="label">Followers</text>
+<text x="550" y="170" text-anchor="middle" class="value">{{FOLLOWERS}}</text>
 
-<!-- PANEL: Commits -->
-<text x="750" y="110" text-anchor="middle" class="text">Commits</text>
-<text x="750" y="140" text-anchor="middle" class="value">1</text>
+<!-- Commits -->
+<circle cx="750" cy="100" r="40" fill="#111" stroke="#FF00FF" stroke-width="2"/>
+<text x="750" y="95" text-anchor="middle" class="label">Commits</text>
+<text x="750" y="120" text-anchor="middle" class="value">{{COMMITS}}</text>
 
-<!-- Animated Core -->
-<circle cx="450" cy="220" r="8" fill="#FF00FF">
-  <animate attributeName="r" values="8;14;8" dur="1.5s" repeatCount="indefinite"/>
+<!-- ================= EDGES ================= -->
+
+<!-- Lines -->
+<line x1="150" y1="150" x2="350" y2="100" stroke="#00F7FF" stroke-width="2"/>
+<line x1="350" y1="100" x2="550" y2="150" stroke="#FF00FF" stroke-width="2"/>
+<line x1="550" y1="150" x2="750" y2="100" stroke="#00F7FF" stroke-width="2"/>
+
+<!-- Animated data flow -->
+<circle r="5" fill="#FF00FF">
+  <animateMotion dur="3s" repeatCount="indefinite">
+    <mpath href="#path1"/>
+  </animateMotion>
 </circle>
+
+<path id="path1" d="M150 150 L350 100 L550 150 L750 100" fill="none"/>
+
+<!-- ================= CORE ================= -->
+
+<!-- Central Node -->
+<circle cx="450" cy="300" r="20" fill="#FF00FF">
+  <animate attributeName="r" values="20;28;20" dur="1.5s" repeatCount="indefinite"/>
+</circle>
+
+<text x="450" y="335" text-anchor="middle" fill="#FF00FF" font-size="12">
+AI CORE
+</text>
+
+<!-- Connections to core -->
+<line x1="150" y1="150" x2="450" y2="300" stroke="#00F7FF" stroke-width="1"/>
+<line x1="350" y1="100" x2="450" y2="300" stroke="#FF00FF" stroke-width="1"/>
+<line x1="550" y1="150" x2="450" y2="300" stroke="#00F7FF" stroke-width="1"/>
+<line x1="750" y1="100" x2="450" y2="300" stroke="#FF00FF" stroke-width="1"/>
 
 </svg>
