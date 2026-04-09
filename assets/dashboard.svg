@@ -1,34 +1,40 @@
 <svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
 
+<style>
+.text { font-family: monospace; fill: #00F7FF; }
+.value { fill: #FFFFFF; font-size: 20px; }
+</style>
+
 <!-- Background -->
 <rect width="900" height="320" rx="20" fill="#0A192F"/>
-
-<!-- Borders -->
 <rect x="5" y="5" width="890" height="310" rx="20" fill="none" stroke="#00F7FF" stroke-width="2"/>
 
 <!-- Title -->
-<text x="50%" y="40" text-anchor="middle" fill="#00F7FF" font-size="24" font-family="monospace">
+<text x="50%" y="40" text-anchor="middle" class="text" font-size="24">
 AI SYSTEM DASHBOARD
 </text>
 
 <!-- Divider -->
 <line x1="40" y1="60" x2="860" y2="60" stroke="#FF00FF"/>
 
-<!-- Panels -->
-<rect x="50" y="80" width="240" height="100" rx="10" fill="#111"/>
-<text x="170" y="120" text-anchor="middle" fill="#00F7FF">Projects</text>
-<text x="170" y="145" text-anchor="middle" fill="#fff">Active</text>
+<!-- PANEL: Repos -->
+<text x="150" y="110" text-anchor="middle" class="text">Repos</text>
+<text x="150" y="140" text-anchor="middle" class="value">{{REPOS}}</text>
 
-<rect x="330" y="80" width="240" height="100" rx="10" fill="#111"/>
-<text x="450" y="120" text-anchor="middle" fill="#00F7FF">Focus</text>
-<text x="450" y="145" text-anchor="middle" fill="#fff">AI / ML</text>
+<!-- PANEL: Stars -->
+<text x="350" y="110" text-anchor="middle" class="text">Stars</text>
+<text x="350" y="140" text-anchor="middle" class="value">{{STARS}}</text>
 
-<rect x="610" y="80" width="240" height="100" rx="10" fill="#111"/>
-<text x="730" y="120" text-anchor="middle" fill="#00F7FF">Status</text>
-<text x="730" y="145" text-anchor="middle" fill="#fff">Learning</text>
+<!-- PANEL: Followers -->
+<text x="550" y="110" text-anchor="middle" class="text">Followers</text>
+<text x="550" y="140" text-anchor="middle" class="value">{{FOLLOWERS}}</text>
 
-<!-- Pulse -->
-<circle cx="450" cy="200" r="8" fill="#FF00FF">
+<!-- PANEL: Commits -->
+<text x="750" y="110" text-anchor="middle" class="text">Commits</text>
+<text x="750" y="140" text-anchor="middle" class="value">{{COMMITS}}</text>
+
+<!-- Animated Core -->
+<circle cx="450" cy="220" r="8" fill="#FF00FF">
   <animate attributeName="r" values="8;14;8" dur="1.5s" repeatCount="indefinite"/>
 </circle>
 
