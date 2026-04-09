@@ -12,7 +12,7 @@
 
 ---
 
-<!-- AI GIF (3D-LIKE VISUAL EFFECT) -->
+<!-- AI VISUAL -->
 <p align="center">
   <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="300"/>
 </p>
@@ -44,11 +44,11 @@ I reverse-engineer complex ideas about intelligence and rebuild them through cod
 ## 🌐 Connect With Me
 
 <p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/krish-kamra-5b81b3313" target="blank">
-<img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"/>
+<a href="https://linkedin.com/in/www.linkedin.com/in/krish-kamra-5b81b3313">
+<img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="mailto:krishkamra@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 </p>
 
@@ -68,43 +68,17 @@ I reverse-engineer complex ideas about intelligence and rebuild them through cod
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-### ⚙️ Tools & Frameworks
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
-
 ---
 
-## 📊 GitHub Analytics
+# 🧠 AI DASHBOARD
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KrishKamra&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KrishKamra&theme=tokyonight&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrishKamra&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img src="assets/dashboard.svg" width="100%" />
 </p>
 
 ---
 
-## 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KrishKamra&theme=tokyo-night&hide_border=true"/>
-</p>
-
----
-
-## 🏆 Achievements
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=KrishKamra&theme=tokyonight&no-frame=true"/>
-</p>
-
----
-
-## 💭 Dev Philosophy
+## 🧠 Dev Philosophy
 
 > "Understanding intelligence requires curiosity, mathematics, and building things."
 
