@@ -1,74 +1,36 @@
-<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
 
 <style>
-  .label { fill: #00F7FF; font-family: monospace; font-size: 14px; }
-  .value { fill: #FFFFFF; font-size: 20px; font-family: monospace; }
+  .label { fill: #00F7FF; font-family: monospace; font-size: 16px; }
+  .value { fill: #FFFFFF; font-size: 24px; font-family: monospace; }
 </style>
 
 <!-- Background -->
-<rect width="900" height="420" rx="20" fill="#0A192F"/>
+<rect width="900" height="300" rx="20" fill="#0A192F"/>
 
-<!-- Glow Border -->
-<rect x="5" y="5" width="890" height="410" rx="20" fill="none" stroke="#00F7FF" stroke-width="2"/>
+<!-- Border -->
+<rect x="5" y="5" width="890" height="290" rx="20" fill="none" stroke="#00F7FF" stroke-width="2"/>
 
 <!-- Title -->
 <text x="50%" y="40" text-anchor="middle" fill="#00F7FF" font-size="22" font-family="monospace">
-NEURAL AI SYSTEM
+AI SYSTEM DASHBOARD
 </text>
-
-<!-- ================= NODES ================= -->
 
 <!-- Repos -->
-<circle cx="150" cy="150" r="40" fill="#111" stroke="#00F7FF" stroke-width="2"/>
-<text x="150" y="145" text-anchor="middle" class="label">Repos</text>
-<text x="150" y="170" text-anchor="middle" class="value">{{REPOS}}</text>
+<text x="200" y="130" text-anchor="middle" class="label">Projects</text>
+<text x="200" y="170" text-anchor="middle" class="value">AI Systems</text>
 
-<!-- Stars -->
-<circle cx="350" cy="100" r="40" fill="#111" stroke="#FF00FF" stroke-width="2"/>
-<text x="350" y="95" text-anchor="middle" class="label">Stars</text>
-<text x="350" y="120" text-anchor="middle" class="value">{{STARS}}</text>
+<!-- Focus -->
+<text x="450" y="130" text-anchor="middle" class="label">Focus</text>
+<text x="450" y="170" text-anchor="middle" class="value">Machine Learning</text>
 
-<!-- Followers -->
-<circle cx="550" cy="150" r="40" fill="#111" stroke="#00F7FF" stroke-width="2"/>
-<text x="550" y="145" text-anchor="middle" class="label">Followers</text>
-<text x="550" y="170" text-anchor="middle" class="value">{{FOLLOWERS}}</text>
+<!-- Status -->
+<text x="700" y="130" text-anchor="middle" class="label">Status</text>
+<text x="700" y="170" text-anchor="middle" class="value">Building</text>
 
-<!-- Commits -->
-<circle cx="750" cy="100" r="40" fill="#111" stroke="#FF00FF" stroke-width="2"/>
-<text x="750" y="95" text-anchor="middle" class="label">Commits</text>
-<text x="750" y="120" text-anchor="middle" class="value">{{COMMITS}}</text>
-
-<!-- ================= EDGES ================= -->
-
-<!-- Lines -->
-<line x1="150" y1="150" x2="350" y2="100" stroke="#00F7FF" stroke-width="2"/>
-<line x1="350" y1="100" x2="550" y2="150" stroke="#FF00FF" stroke-width="2"/>
-<line x1="550" y1="150" x2="750" y2="100" stroke="#00F7FF" stroke-width="2"/>
-
-<!-- Animated data flow -->
-<circle r="5" fill="#FF00FF">
-  <animateMotion dur="3s" repeatCount="indefinite">
-    <mpath href="#path1"/>
-  </animateMotion>
+<!-- Pulse -->
+<circle cx="450" cy="230" r="8" fill="#FF00FF">
+  <animate attributeName="r" values="8;14;8" dur="1.5s" repeatCount="indefinite"/>
 </circle>
-
-<path id="path1" d="M150 150 L350 100 L550 150 L750 100" fill="none"/>
-
-<!-- ================= CORE ================= -->
-
-<!-- Central Node -->
-<circle cx="450" cy="300" r="20" fill="#FF00FF">
-  <animate attributeName="r" values="20;28;20" dur="1.5s" repeatCount="indefinite"/>
-</circle>
-
-<text x="450" y="335" text-anchor="middle" fill="#FF00FF" font-size="12">
-AI CORE
-</text>
-
-<!-- Connections to core -->
-<line x1="150" y1="150" x2="450" y2="300" stroke="#00F7FF" stroke-width="1"/>
-<line x1="350" y1="100" x2="450" y2="300" stroke="#FF00FF" stroke-width="1"/>
-<line x1="550" y1="150" x2="450" y2="300" stroke="#00F7FF" stroke-width="1"/>
-<line x1="750" y1="100" x2="450" y2="300" stroke="#FF00FF" stroke-width="1"/>
 
 </svg>
