@@ -52,14 +52,15 @@ jobs:
           git config --global user.email "actions@github.com"
 
           git checkout main
-          git fetch origin main
-          git reset --hard origin/main
-
-          git add assets/dashboard.svg
-          git commit -m "Auto-update dashboard" || echo "No changes to commit"
 
           PUSH_SUCCESS=false
           for i in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+
+            git add assets/dashboard.svg
+            git commit -m "Auto-update dashboard" || echo "No changes to commit"
+
             if git push origin main; then
               PUSH_SUCCESS=true
               echo "Successfully pushed on attempt $i"
@@ -68,8 +69,6 @@ jobs:
               if [ $i -lt 3 ]; then
                 echo "Push attempt $i failed. Retrying in 5 seconds..."
                 sleep 5
-                git fetch origin main
-                git rebase origin/main || git rebase --abort
               fi
             fi
           done
