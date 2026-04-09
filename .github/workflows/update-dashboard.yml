@@ -61,6 +61,9 @@ jobs:
             git add assets/dashboard.svg
             git commit -m "Auto-update dashboard" || echo "No changes to commit"
 
+            # Fetch again right before pushing to minimize race condition window
+            git fetch origin main
+
             if git push origin main; then
               PUSH_SUCCESS=true
               echo "Successfully pushed on attempt $i"
