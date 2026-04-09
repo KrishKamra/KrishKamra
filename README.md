@@ -73,7 +73,7 @@ I reverse-engineer complex ideas about intelligence and rebuild them through cod
 # 🧠 AI DASHBOARD
 
 <p align="center">
-  <img src="assets/dashboard.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/KrishKamra/KrishKamra/main/assets/dashboard.svg?cache=2" />
 </p>
 
 ---
