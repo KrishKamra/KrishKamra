@@ -55,15 +55,17 @@ jobs:
 
           PUSH_SUCCESS=false
           for i in 1 2 3; do
+            # Fetch latest from remote
             git fetch origin main
-            git reset --hard origin/main
-
+            
+            # Rebase your changes on top of remote (not hard reset)
+            git rebase origin/main
+            
+            # Stage and commit changes
             git add assets/dashboard.svg
             git commit -m "Auto-update dashboard" || echo "No changes to commit"
-
-            # Fetch again right before pushing to minimize race condition window
-            git fetch origin main
-
+            
+            # Push immediately after commit
             if git push origin main; then
               PUSH_SUCCESS=true
               echo "Successfully pushed on attempt $i"
@@ -72,6 +74,8 @@ jobs:
               if [ $i -lt 3 ]; then
                 echo "Push attempt $i failed. Retrying in 5 seconds..."
                 sleep 5
+                # Reset to remote for next attempt
+                git reset --hard origin/main
               fi
             fi
           done
