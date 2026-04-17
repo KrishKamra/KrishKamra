@@ -80,7 +80,7 @@ I reverse-engineer complex ideas about intelligence and rebuild them through cod
 
 ## 🧠 Dev Philosophy
 
-> "Understanding intelligence requires curiosity, mathematics, and building things."
+<h3 align="center">"Understanding intelligence requires curiosity, mathematics, and building things."</h3>
 
 ---
 
