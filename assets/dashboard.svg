@@ -102,7 +102,7 @@ path="M170 180 L370 130 L580 180 L780 130"/>
 <line x1="780" y1="130" x2="475" y2="360" stroke="#FF00FF" stroke-width="1"/>
 
 <!-- bottom panels -->
-<rect x="80" y="435" width="240" height="48" rx="10" fill="#0f1b2d" stroke="#00F7FF"/>
+<rect x="70" y="435" width="260" height="48" rx="10" fill="#0f1b2d" stroke="#00F7FF"/>
 <text x="200" y="465" text-anchor="middle" class="label">Python • TensorFlow • FastAPI</text>
 
 <rect x="355" y="435" width="240" height="48" rx="10" fill="#0f1b2d" stroke="#FF00FF"/>
