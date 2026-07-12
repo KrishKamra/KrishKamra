@@ -120,12 +120,13 @@
 ---
 
 <!-- SECTION: DEV PHILOSOPHY -->
+<div id="dev-philosophy"></div>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0A192F&height=50&text=DEV%20PHILOSOPHY&fontSize=22&fontColor=00F7FF&fontFamily=Fira%20Code"/>
 </p>
 
 <p align="center">
-  > <i>"Understanding intelligence requires curiosity, mathematics, experimentation, and relentless iteration."</i>
+  <img src="./assets/philosophy.svg" width="100%" alt="Developer Philosophy" />
 </p>
 
 ---
