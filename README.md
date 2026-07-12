@@ -16,6 +16,19 @@
   <img src="https://img.shields.io/badge/LOCATION-INDIA-F107A3?style=for-the-badge"/>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=KrishKamra&color=00F7FF&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
+
+<!-- QUICK NAVIGATION -->
+<p align="center">
+  <a href="#about-me"><b>About</b></a> •
+  <a href="#tech-stack"><b>Tech Stack</b></a> •
+  <a href="#ai-dashboard"><b>Dashboard</b></a> •
+  <a href="#github-analytics"><b>Analytics</b></a> •
+  <a href="#connect"><b>Connect</b></a>
+</p>
+
 ---
 
 <!-- SECTION: AI CONTROL CENTER -->
@@ -30,6 +43,7 @@
 ---
 
 <!-- SECTION: ABOUT ME -->
+<div id="about-me"></div>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0A192F&height=50&text=ABOUT%20ME&fontSize=22&fontColor=00F7FF&fontFamily=Fira%20Code"/>
 </p>
@@ -54,48 +68,21 @@
 ---
 
 <!-- SECTION: TECH STACK -->
+<div id="tech-stack"></div>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0A192F&height=50&text=TECH%20STACK&fontSize=22&fontColor=00F7FF&fontFamily=Fira%20Code"/>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=102544&height=35&text=Languages&fontSize=14&fontColor=00F7FF&fontFamily=Fira%20Code"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-102544?style=for-the-badge&logo=python&logoColor=00F7FF"/>
-  <img src="https://img.shields.io/badge/Java-102544?style=for-the-badge&logo=openjdk&logoColor=FF0844"/>
-  <img src="https://img.shields.io/badge/C++-102544?style=for-the-badge&logo=c%2B%2B&logoColor=F107A3"/>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=102544&height=35&text=AI%20/%20ML&fontSize=14&fontColor=00F7FF&fontFamily=Fira%20Code"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/TensorFlow-102544?style=for-the-badge&logo=tensorflow&logoColor=FF0844"/>
-  <img src="https://img.shields.io/badge/Keras-102544?style=for-the-badge&logo=keras&logoColor=00F7FF"/>
-  <img src="https://img.shields.io/badge/scikit--learn-102544?style=for-the-badge&logo=scikit-learn&logoColor=F107A3"/>
-  <img src="https://img.shields.io/badge/NumPy-102544?style=for-the-badge&logo=numpy&logoColor=00F7FF"/>
-  <img src="https://img.shields.io/badge/Pandas-102544?style=for-the-badge&logo=pandas&logoColor=FF0844"/>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=102544&height=35&text=Web%20/%20Backend&fontSize=14&fontColor=00F7FF&fontFamily=Fira%20Code"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-102544?style=for-the-badge&logo=fastapi&logoColor=00F7FF"/>
-  <img src="https://img.shields.io/badge/React-102544?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/TypeScript-102544?style=for-the-badge&logo=typescript&logoColor=3178C6"/>
-  <img src="https://img.shields.io/badge/MySQL-102544?style=for-the-badge&logo=mysql&logoColor=FF0844"/>
-  <img src="https://img.shields.io/badge/MongoDB-102544?style=for-the-badge&logo=mongodb&logoColor=00F7FF"/>
-  <img src="https://img.shields.io/badge/Git-102544?style=for-the-badge&logo=git&logoColor=F107A3"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,java,cpp,tensorflow,sklearn,fastapi,react,ts,mysql,mongodb,git&theme=dark&perline=6" />
+  </a>
 </p>
 
 ---
 
 <!-- SECTION: AI DASHBOARD -->
+<div id="ai-dashboard"></div>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0A192F&height=50&text=AI%20DASHBOARD&fontSize=22&fontColor=00F7FF&fontFamily=Fira%20Code"/>
 </p>
@@ -107,22 +94,24 @@
 ---
 
 <!-- SECTION: GITHUB ANALYTICS -->
+<div id="github-analytics"></div>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0A192F&height=50&text=GITHUB%20ANALYTICS&fontSize=22&fontColor=00F7FF&fontFamily=Fira%20Code"/>
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=KrishKamra&show_icons=true&theme=transparent&hide_border=true"/>
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=KrishKamra&theme=transparent&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=KrishKamra&show_icons=true&bg_color=0A192F&title_color=FF0844&icon_color=00F7FF&text_color=FFFFFF&border_color=00F7FF" alt="Krish's GitHub Stats" />
+  &nbsp;
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrishKamra&layout=compact&theme=transparent&hide_border=true"/>
+  <img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=KrishKamra&layout=compact&bg_color=0A192F&title_color=FF0844&text_color=FFFFFF&border_color=00F7FF" alt="Krish's Top Languages" />
 </p>
 
 ---
 
 <!-- SECTION: CONNECT -->
+<div id="connect"></div>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0A192F&height=50&text=CONNECT&fontSize=22&fontColor=00F7FF&fontFamily=Fira%20Code"/>
 </p>
