@@ -20,15 +20,6 @@
   <img src="https://komarev.com/ghpvc/?username=KrishKamra&color=00F7FF&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
-<!-- QUICK NAVIGATION -->
-<p align="center">
-  <a href="#about-me"><b>About</b></a> •
-  <a href="#tech-stack"><b>Tech Stack</b></a> •
-  <a href="#ai-dashboard"><b>Dashboard</b></a> •
-  <a href="#github-analytics"><b>Analytics</b></a> •
-  <a href="#connect"><b>Connect</b></a>
-</p>
-
 ---
 
 <!-- SECTION: AI CONTROL CENTER -->
@@ -100,12 +91,13 @@
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=KrishKamra&show_icons=true&bg_color=0A192F&title_color=FF0844&icon_color=00F7FF&text_color=FFFFFF&border_color=00F7FF" alt="Krish's GitHub Stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=KrishKamra&background=0A192F&title=FF0844&fire=FF0844&ring=00F7FF&currStreakNum=00F7FF&currStreakLabel=FF0844&sideNums=FFFFFF&sideLabels=00F7FF&dates=8892B0&border=00F7FF&hide_border=false" alt="Krish's Streak Stats" />
   &nbsp;
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=KrishKamra&show_icons=true&bg_color=0A192F&title_color=FF0844&icon_color=00F7FF&text_color=FFFFFF&border_color=00F7FF&hide_border=false" alt="Krish's GitHub Stats" />
 </p>
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=KrishKamra&layout=compact&bg_color=0A192F&title_color=FF0844&text_color=FFFFFF&border_color=00F7FF" alt="Krish's Top Languages" />
+  <img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=KrishKamra&layout=compact&bg_color=0A192F&title_color=FF0844&text_color=FFFFFF&border_color=00F7FF&hide_border=false" alt="Krish's Top Languages" />
 </p>
 
 ---
