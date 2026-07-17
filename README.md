@@ -66,7 +66,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,java,cpp,tensorflow,sklearn,fastapi,react,ts,mysql,mongodb,git&theme=dark&perline=6" />
+    <img src="https://skillicons.dev/icons?i=py,java,cpp,tensorflow,sklearn,pytorch,fastapi,react,ts,mysql,mongodb,git&theme=dark&perline=6" />
   </a>
 </p>
 
