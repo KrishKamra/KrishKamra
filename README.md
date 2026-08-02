@@ -39,24 +39,27 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0A192F&height=50&text=ABOUT%20ME&fontSize=22&fontColor=00F7FF&fontFamily=Fira%20Code"/>
 </p>
 
-| Current Focus | Core Interests |
-|:-----------------|:------------------|
-| Building AI systems and intelligent software from first principles. | Machine Learning |
-| Time-series forecasting | Deep Learning |
-| Generative AI | Generative AI |
-| Algorithms from scratch | Mechanistic Interpretability |
-| Backend AI Systems | AI System Design |
+<b><p align="center">
+  AI Engineering student who builds intelligent systems from first principles.<br>
+  I care about understanding models deeply, shipping reliable software, and learning in public.
+</p>
 
 <br/>
 
-| Collaboration | Currently Learning |
-|:----------------|:----------------------|
-| Open Source AI | Deep Learning |
-| Research Projects | MLOps |
-| AI Infrastructure | Distributed Systems |
-| Intelligent Systems | LLM Engineering |
+| Current Focus | Currently Learning |
+|:--------------|:-------------------|
+| End-to-end AI systems (data → training → serving) | LLM Engineering & Agentic Systems |
+| Time-series forecasting & generative models | MLOps & Model Deployment |
+| Mechanistic interpretability | Distributed Systems for ML |
+| Production backend systems for AI | Advanced Deep Learning |
 
----
+<br/>
+
+| Open to Collaborate On |
+|:-----------------------|
+| Open Source AI projects |
+| Research-oriented experiments |
+| AI Infrastructure & Intelligent Systems |
 
 <!-- SECTION: TECH STACK -->
 <div id="tech-stack"></div>
